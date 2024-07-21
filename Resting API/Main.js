@@ -7,7 +7,7 @@ $(document).ready(function() {
                 type: 'GET',
                 data: { term: term },
                 headers: {
-                    'X-RapidAPI-Key': '1f05a6bed0msh0358b1e81fd9cf9p1e3786jsn63dec353bef9',
+                    'X-RapidAPI-Key': 'qq6oJtDbyfnXNmNZog7etxOk857bDaHrFksphcbX',
                     'X-RapidAPI-Host': 'mashape-community-urban-dictionary.p.rapidapi.com'
                 },
                 success: function(response) {
