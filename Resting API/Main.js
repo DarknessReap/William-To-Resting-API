@@ -5,8 +5,9 @@ $(document).ready(function() {
             $.ajax({
                 url: 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/' + term,
                 type: 'GET',
-                data: { key: '729bc70b-040d-4073-91c8-482b3cc5a9d2' },
+                data: { key: '6d2bab34-586e-4a77-ab08-57fcbb037b11' },
                 success: function(response) {
+                    console.log(response);
                     var definitionHtml = '';
 
                     if (response.length > 0) {
